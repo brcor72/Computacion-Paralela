@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Base de datos SQLite (se crea al arrancar)
+backend/textile_analysis.db
+*.db
+
+# Carpetas generadas en tiempo de ejecución
+backend/uploads/
+backend/masks/
+
+# Binario HPC compilado (se genera con build.sh)
+hpc_core/textil_hibrido
+hpc_core/textil_hibrido.exe
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.npm/
+
+# Entornos virtuales Python
+.venv/
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
